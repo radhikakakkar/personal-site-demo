@@ -1,0 +1,199 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto+Mono&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  background-color: white;
+  font-family: "quicksand";
+}
+/* navbar */
+.navbar {
+  position: relative;
+  background-color: rgb(238, 223, 226);
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+  /* border-radius: 50px; */
+
+  /* padding: 30px;
+  margin: 20px; */
+}
+div.links {
+  padding-left: 0;
+}
+nav a {
+  opacity: 0.7;
+  font-size: 20px;
+  text-decoration: none !important;
+  color: rgb(247, 104, 135);
+  padding: 10px;
+}
+nav a:hover {
+  border-bottom: dotted 2px rgb(247, 104, 135);
+  color: black;
+}
+.navbar-brand {
+  font-size: 55px;
+  padding-left: 5px;
+}
+.activ{
+    font-size: 23px;
+    border-bottom: dotted 2px rgb(247, 104, 135);
+
+}
+
+/*main */
+#main {
+  width: 100%;
+  background-color: rgb(204, 233, 238);
+}
+
+#main #one {
+  /* height: 200%; */
+  background-color: white;
+}
+
+.row {
+  margin-left: 0;
+}
+
+#intro h3 {
+  /* height: 150%; */
+  line-height: 146px;
+  padding-left: 30px !important;
+  font-family: "quicksand";
+  font-size: 90px;
+  margin-bottom: 0;
+  padding: 0;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+#intro h5 {
+  background-color:rgb(235, 210, 215) ;
+  border-radius: 50px;
+  font-family: "quicksand";
+  width: 60%;
+  font-size: 30px;
+  color: rgb(247, 104, 135);
+  opacity: 0.7;
+  margin-top: 40px;
+  padding: 10px;
+ 
+}
+#intro a {
+  color: rgb(247, 104, 135);
+  opacity: 0.7;
+  height: 20px !important;
+}
+#intro a:hover {
+  cursor: pointer;
+}
+
+#image img {
+  /* background-color: black; */
+  border-radius: 50px;
+  margin: 0;
+}
+
+/* about */
+
+#about {
+  width: 100%;
+  background-color: rgb(133, 166, 172);
+}
+#about #two {
+  background-color: white;
+}
+#two h3 {
+  text-align: right;
+  font-size: 90px;
+  padding: 20px;
+  margin: 5px;
+}
+#two p{
+    text-align: left;
+    font-size: 30px;
+    line-height:50px;
+    color: rgb(41, 39, 39);
+    background-color: rgb(204, 233, 238);
+    border-radius: 40px;
+    font-family: "roboto mono";
+    padding: 20px;
+    margin: 20px;
+}
+
+/* projects */
+
+#projects1{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+    grid-template-columns: 5fr;
+}
+#projects2{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+    grid-template-columns: 2fr 2fr;
+}
+#projects3{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+    grid-template-columns: 2fr 3fr;
+}
+#projects4{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30px; */
+    grid-template-columns: 3fr 2fr;
+}
+.card-body{
+    margin: auto;
+    text-align: center;
+}
+.card-title{
+    color:rgb(133, 166, 172);
+    
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+#projects .card-text{
+    font-family: "roboto mono";
+}
+.progress{
+    width: 40%;
+    height: 40px;
+}
+.card a.btn.btn-outline-primary{
+    color:  rgb(247, 104, 135);
+    border:1px solid rgb(247, 104, 135);
+}
+.card-body a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: white;
+
+}
+
+/* footer */
+
+footer ul li a{
+    text-decoration: none;
+    color:rgb(247, 104, 135);
+    
+}
+footer ul li{
+    width: 30px;
+    height: 30px; 
+    margin: 10px;
+}
